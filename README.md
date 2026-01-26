@@ -29,18 +29,23 @@ Each student must:
 - Git
 - GitHub account
 
-## Check Git installation:
+## Clone Git Project to local:
 ```
 git --version
 
+
+### git clone
 git clone https://github.com/PulseInProd/SP26_HAP455_Week2
 cd SP26_HAP455_Week2
 
+### get the latest
 git checkout main
 git pull origin main
 
+### create a branch with your last and first name
 git checkout -b lastname_firstname
 
+### check the branch name created
 git branch
 
 ```
@@ -70,10 +75,14 @@ After editing `assignment2.py`, save the file in your editor.
 
 Check the status of your changes:
 ```
+
+### add the changes
 git add -A
 
+### commit the changes
 git commit -m "Add health function for lastname_firstname"
 
+### push the changes to repo
 git push origin lastname_firstname
 
 ```
@@ -83,12 +92,16 @@ Merge the Changes
 ```
 git status
 
+### checkout to main
 git checkout main
 
+### pull the Main branch changes
 git pull origin main
 
+### checkout back to your branch
 git checkout lastname_firstname
 
+### git merge
 git merge main
 
 ```
@@ -96,7 +109,9 @@ git merge main
 Fix Conflicts Locally (if Any)
 
 ```
-git add health_app.py
+Fix the code and conflicts 
+
+git add -A
 git commit -m "Resolve merge conflicts"
 git push origin lastname_firstname
 
@@ -105,8 +120,9 @@ git push origin lastname_firstname
 Merge Into main
 
 ```
-Once GitHub.com if no conflicts:
+Once conflicts are fixed:
 
+go to project https://github.com/PulseInProd/SP26_HAP455_Week2
 Click Merge Pull Request
 
 Click Confirm Merge
