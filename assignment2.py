@@ -8,7 +8,6 @@ def main():
 
     # ==== STUDENT FUNCTION CALLS ====
     # Add your function call below this line
-
     # Example:
     lastname_firstname()
 
@@ -17,17 +16,17 @@ def main():
 
 # ==== STUDENT CODE SECTION ====
 # Each student:
-# 1. Creates ONE function
-# 2. Names it lastname_firstname
-# 3. Prints a health-related message or data
-# 4. DOES NOT modify other student functions
+# 1.To Create ONE function
+# 2. Name it lastname_firstname (Can be your Initials of your last name and first Name Ex: S_M) 
+# 3. Print a sample data with variables from the given example
+# 4. DO NOT modify other student functions
 
 
 # Example:
 def lastname_firstname():
-    print("Name: Example Student")
-    print("Health Tip: Drink water regularly.")
-    print("Average heart rate: 72 bpm\n")
+    print("Patient Name: John Doe")
+    print("Patient Age: 32 years")
+    print("Daignosis: Type 2 Diabeties")
 
 
 # ==== END STUDENT CODE SECTION ====
